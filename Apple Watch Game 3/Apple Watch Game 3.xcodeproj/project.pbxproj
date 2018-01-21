@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF36EBE620154660002D199F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EBE520154660002D199F /* AppDelegate.swift */; };
+		FF36EBE820154660002D199F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EBE720154660002D199F /* ViewController.swift */; };
+		FF36EBEB20154660002D199F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF36EBE920154660002D199F /* Main.storyboard */; };
+		FF36EBED20154660002D199F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF36EBEC20154660002D199F /* Assets.xcassets */; };
+		FF36EBF020154660002D199F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF36EBEE20154660002D199F /* LaunchScreen.storyboard */; };
+		FF36EBFB20154660002D199F /* Apple_Watch_Game_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EBFA20154660002D199F /* Apple_Watch_Game_3Tests.swift */; };
+		FF36EC0620154660002D199F /* Apple_Watch_Game_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EC0520154660002D199F /* Apple_Watch_Game_3UITests.swift */; };
+		FF36EC0B20154660002D199F /* Apple Watch Game 3 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FF36EC0A20154660002D199F /* Apple Watch Game 3 WatchKit App.app */; };
+		FF36EC1120154660002D199F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF36EC0F20154660002D199F /* Interface.storyboard */; };
+		FF36EC1320154660002D199F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF36EC1220154660002D199F /* Assets.xcassets */; };
+		FF36EC1A20154660002D199F /* Apple Watch Game 3 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF36EC1920154660002D199F /* Apple Watch Game 3 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF36EC1F20154660002D199F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EC1E20154660002D199F /* InterfaceController.swift */; };
+		FF36EC2120154660002D199F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EC2020154660002D199F /* ExtensionDelegate.swift */; };
+		FF36EC2320154660002D199F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EC2220154660002D199F /* NotificationController.swift */; };
+		FF36EC2520154660002D199F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36EC2420154660002D199F /* ComplicationController.swift */; };
+		FF36EC2720154660002D199F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF36EC2620154660002D199F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF36EBF720154660002D199F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF36EBDA20154660002D199F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF36EBE120154660002D199F;
+			remoteInfo = "Apple Watch Game 3";
+		};
+		FF36EC0220154660002D199F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF36EBDA20154660002D199F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF36EBE120154660002D199F;
+			remoteInfo = "Apple Watch Game 3";
+		};
+		FF36EC0C20154660002D199F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF36EBDA20154660002D199F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF36EC0920154660002D199F;
+			remoteInfo = "Apple Watch Game 3 WatchKit App";
+		};
+		FF36EC1B20154660002D199F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF36EBDA20154660002D199F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF36EC1820154660002D199F;
+			remoteInfo = "Apple Watch Game 3 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF36EC2F20154660002D199F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF36EC1A20154660002D199F /* Apple Watch Game 3 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EC3320154660002D199F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FF36EC0B20154660002D199F /* Apple Watch Game 3 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF36EBE220154660002D199F /* Apple Watch Game 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Watch Game 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF36EBE520154660002D199F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF36EBE720154660002D199F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF36EBEA20154660002D199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF36EBEC20154660002D199F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF36EBEF20154660002D199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF36EBF120154660002D199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF36EBF620154660002D199F /* Apple Watch Game 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple Watch Game 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF36EBFA20154660002D199F /* Apple_Watch_Game_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Watch_Game_3Tests.swift; sourceTree = "<group>"; };
+		FF36EBFC20154660002D199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF36EC0120154660002D199F /* Apple Watch Game 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple Watch Game 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF36EC0520154660002D199F /* Apple_Watch_Game_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Watch_Game_3UITests.swift; sourceTree = "<group>"; };
+		FF36EC0720154660002D199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF36EC0A20154660002D199F /* Apple Watch Game 3 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Watch Game 3 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF36EC1020154660002D199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF36EC1220154660002D199F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF36EC1420154660002D199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF36EC1920154660002D199F /* Apple Watch Game 3 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Apple Watch Game 3 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF36EC1E20154660002D199F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FF36EC2020154660002D199F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FF36EC2220154660002D199F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FF36EC2420154660002D199F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FF36EC2620154660002D199F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF36EC2820154660002D199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF36EC2920154660002D199F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF36EBDF20154660002D199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EBF320154660002D199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EBFE20154660002D199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EC1620154660002D199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF36EBD920154660002D199F = {
+			isa = PBXGroup;
+			children = (
+				FF36EBE420154660002D199F /* Apple Watch Game 3 */,
+				FF36EBF920154660002D199F /* Apple Watch Game 3Tests */,
+				FF36EC0420154660002D199F /* Apple Watch Game 3UITests */,
+				FF36EC0E20154660002D199F /* Apple Watch Game 3 WatchKit App */,
+				FF36EC1D20154660002D199F /* Apple Watch Game 3 WatchKit Extension */,
+				FF36EBE320154660002D199F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF36EBE320154660002D199F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF36EBE220154660002D199F /* Apple Watch Game 3.app */,
+				FF36EBF620154660002D199F /* Apple Watch Game 3Tests.xctest */,
+				FF36EC0120154660002D199F /* Apple Watch Game 3UITests.xctest */,
+				FF36EC0A20154660002D199F /* Apple Watch Game 3 WatchKit App.app */,
+				FF36EC1920154660002D199F /* Apple Watch Game 3 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF36EBE420154660002D199F /* Apple Watch Game 3 */ = {
+			isa = PBXGroup;
+			children = (
+				FF36EBE520154660002D199F /* AppDelegate.swift */,
+				FF36EBE720154660002D199F /* ViewController.swift */,
+				FF36EBE920154660002D199F /* Main.storyboard */,
+				FF36EBEC20154660002D199F /* Assets.xcassets */,
+				FF36EBEE20154660002D199F /* LaunchScreen.storyboard */,
+				FF36EBF120154660002D199F /* Info.plist */,
+			);
+			path = "Apple Watch Game 3";
+			sourceTree = "<group>";
+		};
+		FF36EBF920154660002D199F /* Apple Watch Game 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF36EBFA20154660002D199F /* Apple_Watch_Game_3Tests.swift */,
+				FF36EBFC20154660002D199F /* Info.plist */,
+			);
+			path = "Apple Watch Game 3Tests";
+			sourceTree = "<group>";
+		};
+		FF36EC0420154660002D199F /* Apple Watch Game 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF36EC0520154660002D199F /* Apple_Watch_Game_3UITests.swift */,
+				FF36EC0720154660002D199F /* Info.plist */,
+			);
+			path = "Apple Watch Game 3UITests";
+			sourceTree = "<group>";
+		};
+		FF36EC0E20154660002D199F /* Apple Watch Game 3 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF36EC0F20154660002D199F /* Interface.storyboard */,
+				FF36EC1220154660002D199F /* Assets.xcassets */,
+				FF36EC1420154660002D199F /* Info.plist */,
+			);
+			path = "Apple Watch Game 3 WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF36EC1D20154660002D199F /* Apple Watch Game 3 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF36EC1E20154660002D199F /* InterfaceController.swift */,
+				FF36EC2020154660002D199F /* ExtensionDelegate.swift */,
+				FF36EC2220154660002D199F /* NotificationController.swift */,
+				FF36EC2420154660002D199F /* ComplicationController.swift */,
+				FF36EC2620154660002D199F /* Assets.xcassets */,
+				FF36EC2820154660002D199F /* Info.plist */,
+				FF36EC2920154660002D199F /* PushNotificationPayload.apns */,
+			);
+			path = "Apple Watch Game 3 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF36EBE120154660002D199F /* Apple Watch Game 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF36EC3420154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3" */;
+			buildPhases = (
+				FF36EBDE20154660002D199F /* Sources */,
+				FF36EBDF20154660002D199F /* Frameworks */,
+				FF36EBE020154660002D199F /* Resources */,
+				FF36EC3320154660002D199F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF36EC0D20154660002D199F /* PBXTargetDependency */,
+			);
+			name = "Apple Watch Game 3";
+			productName = "Apple Watch Game 3";
+			productReference = FF36EBE220154660002D199F /* Apple Watch Game 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF36EBF520154660002D199F /* Apple Watch Game 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF36EC3720154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3Tests" */;
+			buildPhases = (
+				FF36EBF220154660002D199F /* Sources */,
+				FF36EBF320154660002D199F /* Frameworks */,
+				FF36EBF420154660002D199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF36EBF820154660002D199F /* PBXTargetDependency */,
+			);
+			name = "Apple Watch Game 3Tests";
+			productName = "Apple Watch Game 3Tests";
+			productReference = FF36EBF620154660002D199F /* Apple Watch Game 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF36EC0020154660002D199F /* Apple Watch Game 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF36EC3A20154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3UITests" */;
+			buildPhases = (
+				FF36EBFD20154660002D199F /* Sources */,
+				FF36EBFE20154660002D199F /* Frameworks */,
+				FF36EBFF20154660002D199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF36EC0320154660002D199F /* PBXTargetDependency */,
+			);
+			name = "Apple Watch Game 3UITests";
+			productName = "Apple Watch Game 3UITests";
+			productReference = FF36EC0120154660002D199F /* Apple Watch Game 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FF36EC0920154660002D199F /* Apple Watch Game 3 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF36EC3020154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3 WatchKit App" */;
+			buildPhases = (
+				FF36EC0820154660002D199F /* Resources */,
+				FF36EC2F20154660002D199F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF36EC1C20154660002D199F /* PBXTargetDependency */,
+			);
+			name = "Apple Watch Game 3 WatchKit App";
+			productName = "Apple Watch Game 3 WatchKit App";
+			productReference = FF36EC0A20154660002D199F /* Apple Watch Game 3 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FF36EC1820154660002D199F /* Apple Watch Game 3 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF36EC2C20154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3 WatchKit Extension" */;
+			buildPhases = (
+				FF36EC1520154660002D199F /* Sources */,
+				FF36EC1620154660002D199F /* Frameworks */,
+				FF36EC1720154660002D199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple Watch Game 3 WatchKit Extension";
+			productName = "Apple Watch Game 3 WatchKit Extension";
+			productReference = FF36EC1920154660002D199F /* Apple Watch Game 3 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF36EBDA20154660002D199F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Reece Landry";
+				TargetAttributes = {
+					FF36EBE120154660002D199F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF36EBF520154660002D199F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF36EBE120154660002D199F;
+					};
+					FF36EC0020154660002D199F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF36EBE120154660002D199F;
+					};
+					FF36EC0920154660002D199F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF36EC1820154660002D199F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF36EBDD20154660002D199F /* Build configuration list for PBXProject "Apple Watch Game 3" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF36EBD920154660002D199F;
+			productRefGroup = FF36EBE320154660002D199F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF36EBE120154660002D199F /* Apple Watch Game 3 */,
+				FF36EBF520154660002D199F /* Apple Watch Game 3Tests */,
+				FF36EC0020154660002D199F /* Apple Watch Game 3UITests */,
+				FF36EC0920154660002D199F /* Apple Watch Game 3 WatchKit App */,
+				FF36EC1820154660002D199F /* Apple Watch Game 3 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF36EBE020154660002D199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36EBF020154660002D199F /* LaunchScreen.storyboard in Resources */,
+				FF36EBED20154660002D199F /* Assets.xcassets in Resources */,
+				FF36EBEB20154660002D199F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EBF420154660002D199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EBFF20154660002D199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EC0820154660002D199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36EC1320154660002D199F /* Assets.xcassets in Resources */,
+				FF36EC1120154660002D199F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EC1720154660002D199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36EC2720154660002D199F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF36EBDE20154660002D199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36EBE820154660002D199F /* ViewController.swift in Sources */,
+				FF36EBE620154660002D199F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EBF220154660002D199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36EBFB20154660002D199F /* Apple_Watch_Game_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EBFD20154660002D199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36EC0620154660002D199F /* Apple_Watch_Game_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36EC1520154660002D199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36EC2320154660002D199F /* NotificationController.swift in Sources */,
+				FF36EC2520154660002D199F /* ComplicationController.swift in Sources */,
+				FF36EC2120154660002D199F /* ExtensionDelegate.swift in Sources */,
+				FF36EC1F20154660002D199F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF36EBF820154660002D199F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF36EBE120154660002D199F /* Apple Watch Game 3 */;
+			targetProxy = FF36EBF720154660002D199F /* PBXContainerItemProxy */;
+		};
+		FF36EC0320154660002D199F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF36EBE120154660002D199F /* Apple Watch Game 3 */;
+			targetProxy = FF36EC0220154660002D199F /* PBXContainerItemProxy */;
+		};
+		FF36EC0D20154660002D199F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF36EC0920154660002D199F /* Apple Watch Game 3 WatchKit App */;
+			targetProxy = FF36EC0C20154660002D199F /* PBXContainerItemProxy */;
+		};
+		FF36EC1C20154660002D199F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF36EC1820154660002D199F /* Apple Watch Game 3 WatchKit Extension */;
+			targetProxy = FF36EC1B20154660002D199F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF36EBE920154660002D199F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF36EBEA20154660002D199F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF36EBEE20154660002D199F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF36EBEF20154660002D199F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF36EC0F20154660002D199F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF36EC1020154660002D199F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF36EC2A20154660002D199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF36EC2B20154660002D199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF36EC2D20154660002D199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				INFOPLIST_FILE = "Apple Watch Game 3 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		FF36EC2E20154660002D199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				INFOPLIST_FILE = "Apple Watch Game 3 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		FF36EC3120154660002D199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				IBSC_MODULE = Apple_Watch_Game_3_WatchKit_Extension;
+				INFOPLIST_FILE = "Apple Watch Game 3 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		FF36EC3220154660002D199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				IBSC_MODULE = Apple_Watch_Game_3_WatchKit_Extension;
+				INFOPLIST_FILE = "Apple Watch Game 3 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		FF36EC3520154660002D199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92J4492S98;
+				INFOPLIST_FILE = "Apple Watch Game 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF36EC3620154660002D199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92J4492S98;
+				INFOPLIST_FILE = "Apple Watch Game 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF36EC3820154660002D199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				INFOPLIST_FILE = "Apple Watch Game 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Watch Game 3.app/Apple Watch Game 3";
+			};
+			name = Debug;
+		};
+		FF36EC3920154660002D199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				INFOPLIST_FILE = "Apple Watch Game 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple Watch Game 3.app/Apple Watch Game 3";
+			};
+			name = Release;
+		};
+		FF36EC3B20154660002D199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				INFOPLIST_FILE = "Apple Watch Game 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apple Watch Game 3";
+			};
+			name = Debug;
+		};
+		FF36EC3C20154660002D199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38MAB5T872;
+				INFOPLIST_FILE = "Apple Watch Game 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ReeceLandry.Apple-Watch-Game-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apple Watch Game 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF36EBDD20154660002D199F /* Build configuration list for PBXProject "Apple Watch Game 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36EC2A20154660002D199F /* Debug */,
+				FF36EC2B20154660002D199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF36EC2C20154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36EC2D20154660002D199F /* Debug */,
+				FF36EC2E20154660002D199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF36EC3020154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36EC3120154660002D199F /* Debug */,
+				FF36EC3220154660002D199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF36EC3420154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36EC3520154660002D199F /* Debug */,
+				FF36EC3620154660002D199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF36EC3720154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36EC3820154660002D199F /* Debug */,
+				FF36EC3920154660002D199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF36EC3A20154660002D199F /* Build configuration list for PBXNativeTarget "Apple Watch Game 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36EC3B20154660002D199F /* Debug */,
+				FF36EC3C20154660002D199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF36EBDA20154660002D199F /* Project object */;
+}
